@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+header:hover{
+    border: 4px solid rgb(59, 59, 238);
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+
+  li {
+    
+    display: inline;
+    margin: 5px;
+  }
+
+  .menu:hover{
+    border: 1px dashed rgb(59, 59, 238);
+    height: 30px;
+    margin-top: 8px;
+  }
+
+  .icon:hover{
+    border: 2px dashed rgb(59, 59, 238);
+    height: 30px;
+    margin-top: 8px;
+  }
+
+  .n1{
+    padding: 30px;
+    font-size: 33px;
+  }
+
+
+  h1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  button{
+   
+    width: 100px;
+    height: 34px;
+    border: 1px solid black;
+    background: none;
+    
+    
+  }
+  main{
+    display: flex;
+    justify-content: center;
+  }
+
+  main img{
+    display: flex;
+    height: 400px;
+    align-items: center;
+  }
+
+  .n1:hover{
+    border: 2px solid rgb(59, 59, 238);
+  }
+
+  main img:hover{
+    border: 2px solid rgb(59, 59, 238);
+  }
